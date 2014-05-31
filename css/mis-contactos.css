@@ -1,0 +1,143 @@
+* {
+	border: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "chalet";
+	src: url("../fonts/ChaleT.eot");
+	src: url("../fonts/ChaleT.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Chalet.woff") format("woff"),
+		url("../fonts/Chalet.ttf") format("truetype"),
+		url("../fonts/Chalet.svg#Chalet") format("svg");
+}
+
+a {
+	color: #F60;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7BBFD5;
+}
+
+body {
+	background: #FFF;
+	font-family: "chalet", Helvetica , Arial;
+	font-size: 16px;
+}
+fieldset {
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form {
+	display: none;
+}
+
+form div{
+	margin: .5em; 
+}
+
+input[type="checkbox"], input[type="radio"], select {
+	background: #EEE;
+	cursor: pointer;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="text"] {
+	background: #EEE;
+	border-radius: .25em;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="text"]:focus {
+	background: #FFF;
+}
+
+input[type="email"]:disabled {
+	background: transparent;
+	color: #CCC;
+}
+
+input[type="file"] {
+	cursor: pointer;
+	opacity: 0;
+	width: 150px;	
+}
+
+input[type="submit"] {
+	background: #FF9A55;
+	border-radius: 3px;
+	font-size: 1em;
+	color: #500;
+}
+
+input[type="submit"]:hover {
+	background: #7BBFD5;
+	border-radius: 3px;
+	font-size: 1em;
+	color: #500;
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+nav, #principal{
+	box-sizing: border-box; /*integra el borde dentro del contenedor*/
+	display: inline-block;
+	font-size: 1em;
+	margin: .25em;
+	text-align: left;
+	width: 20%;
+	vertical-align: top;
+}
+
+ul {
+	list-style: none;
+}
+
+#contenido {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#principal {
+	width: 75%;
+	/*background: #F60;*/
+}
+
+.adjuntar-archivo {
+	background: #EEE url(../img/boton-buscar2.png) no-repeat 100% -3px;
+	border: thin solid #F60;
+	display: inline;
+	height: 290px;
+	text-align: right;
+}
+
+.adjuntar-archivo:hover {
+	background: #CCC url(../img/boton-buscar.png) no-repeat 100% -3px;	
+}
+
+.cambio {
+	transition: all .5s ease-out;
+}
+
+.mensajes {
+	background: yellow;
+	border-radius: .5em;
+	color: black;
+	font-family: helvetica, verdana;
+	font-size: 1em;
+	padding: .5em;
+}
+
+
+
+
+
+
